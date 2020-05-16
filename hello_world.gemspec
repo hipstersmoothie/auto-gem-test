@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "hello_world/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "hello_world"
+  spec.name          = "hipstersmoothie-auto-test"
   spec.version       = HelloWorld::VERSION
   spec.authors       = ["Andrew Lisowski"]
   spec.email         = ["lisowski54@gmail.com"]
