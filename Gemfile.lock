@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    hipstersmoothie-auto-test (0.1.9)
+    hipstersmoothie-auto-test (0.1.10)
 
 GEM
   remote: https://rubygems.org/
