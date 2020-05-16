@@ -1,0 +1,3 @@
+{
+  "plugins": ["../auto/plugins/gem/dist/index.js"]
+}
