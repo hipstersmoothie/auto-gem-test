@@ -1,3 +1,15 @@
+# v0.1.14 (Sat May 16 2020)
+
+#### ⚠️  Pushed to `master`
+
+- switch to gem-release ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.13 (Sat May 16 2020)
 
 
