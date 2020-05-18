@@ -1,3 +1,15 @@
+# v0.1.19 (Mon May 18 2020)
+
+#### ⚠️  Pushed to `master`
+
+- turn off verbose ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.17 (Mon May 18 2020)
 
 #### ⚠️  Pushed to `master`
