@@ -28,6 +28,8 @@ jobs:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
         run: |
           bundler install;
-          npm i -g @auto-canary/auto@9.32.4-canary.1217.15688.0;
-          npm i -g @auto-canary/gem@9.32.4-canary.1217.15688.0;
+          npm i -g @auto-canary/auto@9.32.4-canary.1217.15693.0;
+          npm i -g @auto-canary/gem@9.32.4-canary.1217.15693.0;
           auto shipit;
+
+      - run: cat ~/.gem/credentials
