@@ -1,3 +1,18 @@
+# v0.1.17 (Mon May 18 2020)
+
+#### ⚠️  Pushed to `master`
+
+- update auto ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- debug ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- verbose ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- env var ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.15 (Sun May 17 2020)
 
 #### ⚠️  Pushed to `master`
