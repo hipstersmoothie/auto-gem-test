@@ -27,4 +27,4 @@ jobs:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
         run: |
           bundler install;
-          auto shipit;
+          ~/auto shipit;
