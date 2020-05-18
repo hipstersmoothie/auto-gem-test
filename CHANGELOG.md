@@ -1,3 +1,18 @@
+# v0.1.20 (Mon May 18 2020)
+
+#### ⚠️  Pushed to `master`
+
+- use installed auto ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update auto again ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- update auto ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- use published auto ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.19 (Mon May 18 2020)
 
 #### ⚠️  Pushed to `master`
