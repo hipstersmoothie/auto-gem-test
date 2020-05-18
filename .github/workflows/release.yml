@@ -24,11 +24,11 @@ jobs:
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
         run: |
           bundler install;
           mkdir ~/.gem;
+          echo ":rubygems_api_key: $RUBYGEMS_API_KEY" >> ~/.gem/credentials;
           npm i -g @auto-canary/auto@9.32.4-canary.1217.15693.0;
           npm i -g @auto-canary/gem@9.32.4-canary.1217.15693.0;
           auto shipit -v;
