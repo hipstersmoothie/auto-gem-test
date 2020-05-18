@@ -26,8 +26,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          mkdir ~/.gem;
-          echo ":github: Bearer GITHUB_TOKEN" >> ~/.gem/credentials;
-          npm i -g @auto-canary/auto@9.32.4-canary.1217.15598.0;
-          npm i -g @auto-canary/gem@9.32.4-canary.1217.15598.0;
+          npm i -g @auto-canary/auto@9.32.4-canary.1217.15688.0;
+          npm i -g @auto-canary/gem@9.32.4-canary.1217.15688.0;
           auto shipit;
