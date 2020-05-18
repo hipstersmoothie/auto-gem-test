@@ -31,7 +31,9 @@ jobs:
           echo ":rubygems_api_key: $RUBYGEMS_API_KEY" >> ~/.gem/credentials;
           echo start
           echo ~/.gem/credentials;
+          cat ~/.gem/credentials;
           echo end
+          echo $HOME
           npm i -g @auto-canary/auto@9.32.4-canary.1217.15693.0;
           npm i -g @auto-canary/gem@9.32.4-canary.1217.15693.0;
           auto shipit -v;
