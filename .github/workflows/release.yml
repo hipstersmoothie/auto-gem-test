@@ -16,10 +16,10 @@ jobs:
         with:
           ruby-version: '2.6'
 
-      - name: Use Node.js 12.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
+      - name: Install Auto
+        run: |
+          curl -vkL -o - https://github.com/intuit/auto/releases/download/v9.33.0/auto-linux.gz | gunzip > ~/auto;
+          chmod a+x ~/auto;
 
       - name: Create Release
         env:
@@ -27,6 +27,4 @@ jobs:
           RUBYGEMS_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
         run: |
           bundler install;
-          npm i -g @auto-canary/auto@9.32.4-canary.1217.15703.0;
-          npm i -g @auto-canary/gem@9.32.4-canary.1217.15703.0;
           auto shipit;
